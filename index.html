@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    
+    <title>Weartake</title>
+  </head>
+  <body>
+      <header>
+        <div class="header-container">
+          <h1>Weartake</h1>
+          <nav>
+            <ul class="header-menu">
+              <li class="filter" id="allProducts">Todos</li>
+              <li class="filter" id="accessory">Acessórios</li>
+              <li class="filter" id="shirt">Camisetas</li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="main-cards">
+          <!-- <ul class="cards-list">
+            <li class="productCard">
+              <img src="./images/jaqueta.svg" alt="product">
+              <span class="tags">Camisetas</span>
+              <h4>Lightweight Jacket</h4>
+              <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante..."</p>
+              <P class="value">R$ 100,00</P>
+              <button class="add_to_cart" type="button"><u>Adicionar ao carrinho</u></button>
+            </li>
+          </ul> -->
+        </section>
+
+        <section class="main-details">
+          <div class="main-search">
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Digite aqui sua pesquisa"
+            />
+            <button class="search-button">Pesquisar</button>
+          </div>
+          <aside>
+            <div class="cart-title">
+              <h4>Carrinho de compras</h4>
+            </div>
+            <div class="cart-empty">
+              <h5>Carrinho Vazio</h5>
+              <p>Adicione Itens</p>
+            </div>
+
+            <div class="cart-products">
+              <ul class="cart-list">
+
+              </ul>
+            </div>
+            <div class="cart-details">
+              <div class="details-values">
+                <p>Quantidade:</p><span id ="totalItens">0</span>
+              </div>
+              <div class="details-values">
+                <p >Total:</p>
+                <span id="totalPurchase">R$0,00</span>
+              </div>
+
+            </div>
+
+            
+          </div>
+        </aside>
+      </section>
+    </main>
+  </body>
+  <script type='module' src="./script/index.js"></script>
+</html>
